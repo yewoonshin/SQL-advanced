@@ -1,2 +1,0 @@
-# SQL-advanced
-sql advanced 
