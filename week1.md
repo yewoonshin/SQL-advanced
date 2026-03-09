@@ -127,12 +127,22 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 - DBMS: 데이터베이스 관리 시스템 또는 소프트웨어
 - 열:테이블의 세로
 - 열 이름: 각 열을 구분하기 위한 이름
-- 데이터 형식: 
+- 데이터 형식: 열에 저장된 데이터의 형식. 숫자, 문자, 정수 등등
+- 행: 실질적인 진짜 데이터. 행 데이터라고도 부르며 행의 개수가 즉 데이터의 개수
+- 기본키: 열은 각 행을 구분하는 유일한 열을 일컬음. 테이블에는 열이 여러개 있지만 기본키는 1개만 지정, 일반적으로 1개의 열에 지정 
 ## 4. 데이터베이스 시작부터 끝까지 
 
 <!-- 이번 챕터는 개념정리 없이 실습 인증사진으로 대체합니다. 강의를 수강하고, 실습 과정이 보이도록 인증사진 3-4장을 아래에 제출해주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/5acd8b71-21c6-421e-87d9-b7bfb22ac034" />
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/5e679423-a8ae-438d-a1bd-7ec3cb755f14" />
+
+<img width="1395" height="1008" alt="image" src="https://github.com/user-attachments/assets/e149d3b8-3f68-47ec-8c15-bd864c3c6f2e" />
+
+<img width="1395" height="1008" alt="image" src="https://github.com/user-attachments/assets/9763e9e0-53e2-48c4-ac34-47c64d76a224" />
+
+<img width="1401" height="1021" alt="image" src="https://github.com/user-attachments/assets/c3671525-fc97-4f9e-9a28-80f5f2a9ed4c" />
 
 
 ## 5. 데이터베이스 개체
@@ -141,7 +151,10 @@ https://www.youtube.com/watch?v=lBk5YhLZevs&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 인덱스, 뷰, 스토어드 프로시저 실습을 각각 진행한 후, 각 실습에 대한 인증 사진을 1장씩 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="1402" height="1002" alt="image" src="https://github.com/user-attachments/assets/55987fa8-ad49-4464-9b83-d0675714f1f6" />
+
+<img width="1402" height="1002" alt="image" src="https://github.com/user-attachments/assets/967a491c-d7ce-4a1c-80d9-4ef0eb5d6288" />
+<img width="1360" height="1007" alt="image" src="https://github.com/user-attachments/assets/889e58eb-3ad7-4a0f-bd8a-7db710a9e88e" />
 
 ---
 
