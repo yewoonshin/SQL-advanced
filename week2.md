@@ -98,6 +98,20 @@ WHERE ________;
 ## 2. 좀 더 깊게 알아보는 SELECT문
 
 <!-- ORDER BY절과 GROUP BY절에 관해 배우게 된 점을 적어주세요. -->
+[ORDER BY] 
+결과가 출력되는 순서 조절 
+- ASC: 오름차순 / DESC: 내림차순
+- order  by절은 where절 다음에 나와야함
+[LIMIT]
+출력 개수 제한
+- limit 3 : 전체중 앞에서 3건만 조회 가능
+[DISTINCT]
+중복 결과 제거
+DISTINCT를 열 이름 앞에 붙이면 중복된 값은 1개만 출력된다
+[GROUP BY]
+- 주로 집계함수와 같이 쓰이며 데이터를 그룹화함
+- [집계함수]
+- SUM , AVG , MIN, MAX , COUNT, COUNT(DISTINCT 칼럼) 
 
 > **확인문제: 다음 표는 주요 집계함수를 정리한 것입니다. 각 설명에 해당하는 올바른 함수명을 기호에 맞게 작성하세요.**
 
