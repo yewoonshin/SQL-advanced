@@ -46,6 +46,29 @@ https://www.youtube.com/watch?v=WWAFAm9op2U&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 ## 1. 기본 중에 기본 SELECT ~ FROM ~ WHERE
 
 <!-- 기본적인 SQL 문법에 관해 배우게 된 점을 적어주세요. -->
+[1. 데이터 베이스만들고 지우기]
+1) DROP : 데이터베이스를 삭제함
+2) CREATE: 데이터베이스를 새로 만듦
+3) USE- 데이터베이스를 선택하는 문장
+4) 테이블 생성하기
+   create table buy
+   ( num int - 정수
+     mem_id -char(8) - 8글자 이내 )
+5) 데이터 입력하기
+   insert into member values ('신예운','응용통계학과','23''여','168')
+[2.조회하기]
+1) 지정하기 - USE문 (사용할 데이터베이스 저장)
+2) 조회하기 - SELECT + 조회할것 / FROM + 불러오는 경로
+3) 별칭 정하기 - as : 열이름 다음에 지정하고 싶은 별칭 입력 (예: name as 이름 또는 as 생략하여 name "이름")
+4) 특정 조건만 조회: where
+   - 관계 여난자, 논리연산자 사용 가능
+   - 관계 연산자: < , > , >=, <=, =
+   - 논리 연산자: and, or, between A and B (이건 논리 아니긴 한데... 범위설정) , in
+     - **IN **where address IN(A,B,C) : A,B,C 동네중 하나라도 포함되면 출력됨
+     - **like ** 문자열 일부 검색 where name_like '%예' : % 자리에 있어도 o , 없어도 o
+     - 반면 '_예' 는 반드시 한글자 있음
+[3.서브쿼리]
+select 문 안의 또다른 selct 문 
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 3~4장 제출해 주세요. -->
 
