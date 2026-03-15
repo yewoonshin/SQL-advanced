@@ -72,8 +72,13 @@ select 문 안의 또다른 selct 문
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 3~4장 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
-
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png) : hongong1이라는 테이블을 새로 만들어서 값을 집어넣음 
 > **확인문제: 다음 SQL문의 빈칸에 들어갈 WHERE절의 문법으로 틀린 것을 고르세요.**
 
 ```sql
@@ -196,8 +201,11 @@ INSERT INTO students VALUES
 3. 현재 students 테이블에 존재하는 서로 다른 전공의 개수를 구하시오.
 4. 나이가 20 이상이고 GPA가 3.5 이상인 학생을 조회하시오.
 5. students 테이블에 본인의 정보를 직접 INSERT 하시오. (INSERT 실행 후, 데이터가 정상적으로 추가되었는지 확인할 수 있도록 조회 결과까지 포함하여 캡처하시오.)
-
-
+![alt text](<화면 캡처 2026-03-15 183117.png>)
+![alt text](<화면 캡처 2026-03-15 183558.png>)
+![alt text](<화면 캡처 2026-03-15 183646.png>)
+![alt text](<화면 캡처 2026-03-15 183735.png>)
+![alt text](<스크린샷 2026-03-15 183910.png>)
 ### 🎉 수고하셨습니다.
 
 
