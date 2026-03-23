@@ -121,7 +121,7 @@ SELECT DISTINCT M.mem_id, B.prod_name, M.mem_name, M.addr
 4. WHERE B.prod_name IS NULL
 ```
 ```
-여기에 답과 그 이유를 적어주세요!
+4. 
 ```
 
 ## 3. SQL 프로그래밍 
@@ -146,8 +146,8 @@ WHEN / THEN / CURRENT / DATE / TIME / IF / END IF / CASE
 
 ```
 여기에 답을 적어주세요!
-(1)
-(2) 
+(1) when 
+(2) case
 ```
 
 
