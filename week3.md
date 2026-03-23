@@ -112,7 +112,21 @@ cast, convert
  from <첫번쨰 테이블>
  inner join <두번째 테이블>
  on <조인될 조건>
- where 검색 조
+ where 검색 조건 컬럼
+
+ [내부조인] 
+ 두 테이블을 조인할 때 필요한 내용이 한쪽 테이블에만 있어도 결과를 추출 가능 
+ select <열 목록> 
+ from <첫번째 테이블(=left 테이블)>
+ <left/right/full> outer join <두번째테이블(right 테이블)>
+ on <조인될 조건>
+ [where 검색 조건]; 
+
+ 1) left outer join: 왼쪽 테이블의 내용은 모두 출력되어야 한다
+ 2) right outer join: 오른쪽 테이블의 내용은 모두 출력되어야 한다
+ 3) full outer join: 왼쪽 외부 조인과 오른쪽 외부 조인이 합쳐짐
+ 4) cross join: 한쪽 테이블의 모든행과 다른쪽 테이블의 모든 행 조인
+ 5) 자체 조인: 자신의 자신과 조인한다는 의미 
 
 > **확인문제: 다음 SQL은 회원으로 가입만 하고, 한 번도 구매한 적이 없는 회원의 목록을 조회하는 쿼리입니다. 빈칸에 들어갈 가장 적절한 구문을 고르세요..**
 
@@ -138,7 +152,15 @@ SELECT DISTINCT M.mem_id, B.prod_name, M.mem_name, M.addr
 ## 3. SQL 프로그래밍 
 
 <!-- IF문, CASE문, WHILE문, 동적 SQL에 관해 배우게 된 점을 적어주세요. -->
-
+if 문: 참이라면 실행, 그렇지 않으면 넘어감 
+if else: 조건에 따라 다른 부분 수행
+case: case와 end case 사이에는 여러 조건을 넣을 수 있음. when 조건이 여러개라면 when을 여러개 반복 
+예를 들어 90점 이상 A, 80점 이상 B 이런식 
+최우수 고객 , 우수 고객, 일반고객, 유령 고객 이런식으로 범주화 가능 
+while: 조건이 만족되는 동안에는 계속 같은 내용 반복 가능 
+동적 SQL 
+prepare- SQL을 실행하지 않고 미리 준비만 해놓음
+execute- 준비한 SQL문 실행 
 > **확인문제: 다음은 CASE 문의 형식입니다. 빈칸에 들어갈 가장 적절한 명령어를 보기에서 고르세요..**
 
 ```sql
@@ -225,18 +247,25 @@ INSERT INTO orders VALUES
    - orders 테이블의 `order_date_str`을 DATE 형식으로 변환하여 조회하시오.
    (힌트: STR_TO_DATE 사용)
 
+<img width="201" height="197" alt="image" src="https://github.com/user-attachments/assets/049cad57-e97a-4b97-ae15-bf824d3e12eb" />
 
 
 2. **데이터 형식 변환**
    - orders 테이블의 `amount_str`을 숫자형으로 변환하여 조회하시오.
+   - <img width="232" height="218" alt="image" src="https://github.com/user-attachments/assets/b703be3e-657b-4a49-a919-675af263167b" />
+
 
 3. **내부 조인 (INNER JOIN)**
    - customers와 orders를 customer_id 기준으로 내부 조인하여
-     고객 이름(name)과 주문 번호(order_id)를 함께 조회하시오.
+     고객 이름(name)과 주문 번호(order_id)를 함께 조회하시오
+     <img width="168" height="156" alt="image" src="https://github.com/user-attachments/assets/0909c5fd-4d11-4bbe-aed3-23f655835af9" />
+
 
 4. **외부 조인 (LEFT JOIN)**
    - customers를 기준으로 LEFT JOIN을 수행하여,
      주문이 없는 고객도 함께 조회하시오.
+     <img width="175" height="247" alt="image" src="https://github.com/user-attachments/assets/3f386313-5c99-4c6a-8d12-704f57d63057" />
+
 
 5. **스토어드 프로시저 (IF문 사용)**
    - 입력받은 금액이 10000 이상이면 '고액 주문',
@@ -245,7 +274,8 @@ INSERT INTO orders VALUES
    - 생성 후 CALL로 실행 결과를 확인하시오.
 
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="476" height="447" alt="image" src="https://github.com/user-attachments/assets/bad240ae-e7d6-44af-afee-a02c71c3ec56" />
+
 
 
 ### 🎉 수고하셨습니다.
