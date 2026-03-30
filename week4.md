@@ -47,12 +47,28 @@ https://www.youtube.com/watch?v=JrXWxku7ZIM&list=PLVsNizTWUw7GCfy5RH27cQL5MeKYnl
 
 <!-- 이번 챕터에서 제시된 실습을 흐름에 맞게 진행한 후, 실습 과정이 보일 수 있도록 인증 사진을 2장 이상 제출해 주세요. -->
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="453" height="342" alt="image" src="https://github.com/user-attachments/assets/6045c909-9a6f-48ae-b89d-96641636fa43" />
+<img width="618" height="436" alt="image" src="https://github.com/user-attachments/assets/41bd92a0-aeb9-4dde-aea0-d2fad84193f2" />
+
 
 
 ## 2. 제약조건으로 테이블을 견고하게 
 
 <!-- 제약조건에 관해 배우게 된 점을 적어주세요. -->
+테이블을 만들때는 테이블 구조에 필요한 제약조건 설정 필요 
+기본키, 외래키가 대표적인 제약 조건. 
+-고유키: 이메일, 휴대폰과 같이 중복되지 않는 열에는 고유 키 지정 가능 
+-체크: 특정 값 이상 x 
+-기본값: 대한민국으로만 국적 설정
+-not null: 반드시 입력 
+
+기본 키 제약 조건: 중복 불가, null값 입력 불가 
+제약조건 설정 방법 
+- create table에서 마지막행헤 primary key 추가하기
+- alter table구문 하용 (member 변경- 제약조건 추가 - mem_id 열에 기본키 제약조건 설정)
+
+  
+- 
 
 > **확인문제: 다음 보기 중에서 각 문항이 설명하는 것을 고르세요.**
 
