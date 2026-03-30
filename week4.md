@@ -105,11 +105,19 @@ select 문;
 1. 보안에 도움이 됨 : 특정 칼럼만 보이는 뷰를 생성해 특정인에게 접근하지 못하도록 권한 제한
 2. 복잡한 SQL 단순화 가능: 복잡한 쿼리를 자주 사용해야한다면 뷰로 생성해 놓고 사용자들은 해당 뷰에만 접근하도록 하면됨
 
-###뷰의 실제 작동
+### 뷰의 실제 작동
 뷰의 실제 생성, 수정, 삭제 
+
+
 1️⃣생성: create view v_viewtest1 as ~~~~~ ( 백틱을 사용) 
+
+
 2️⃣수정: alter view 구문 사용 
+
+
 3️⃣삭제: drop view 
+
+
 정보 확인 가능 
 describe문으로 기본 뷰의 정보 확인 가능 
 show create view로 뷰의 소스 코드 확인 가능 
@@ -185,7 +193,12 @@ USE week4_db;
 1. 각 문제의 실행 결과가 보이도록 화면을 캡처합니다.
 2. 테이블 생성 결과, 데이터 삽입 결과, 뷰 생성 및 조회 결과가 모두 보이도록 제출합니다.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="813" height="52" alt="image" src="https://github.com/user-attachments/assets/1aa558b8-e37e-4e4b-b783-1f27b9fe9a45" />
+<img width="868" height="776" alt="image" src="https://github.com/user-attachments/assets/bff23195-58ef-4137-8f53-fb046cad4778" />
+<img width="585" height="395" alt="image" src="https://github.com/user-attachments/assets/2c038da6-c275-4e56-80c7-61b7c106b165" />
+
+<img width="478" height="376" alt="image" src="https://github.com/user-attachments/assets/a4a815ac-30d8-40fe-8c40-944978d71939" />
+
 
 ### 🎉 수고하셨습니다.
 
