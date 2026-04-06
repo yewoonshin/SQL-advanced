@@ -107,7 +107,7 @@ B. 보조 인덱스: 찾아보기가 별도로 있고 찾아보기에서 해당 
 ```
 
 ```
-페이지 분
+페이지 분할
 ```
 
 
@@ -169,7 +169,12 @@ INSERT INTO employees VALUES
 
 인덱스 생성 결과, EXPLAIN 실행 결과, 인덱스 삭제 결과가 모두 보이도록 캡처하여 제출하세요.
 
-<!-- 이 부분을 지우고 인증사진을 제출해주세요.-->
+<img width="738" height="112" alt="image" src="https://github.com/user-attachments/assets/c2ab5ace-9f43-49e2-b860-25154be2bda4" />
+<img width="742" height="132" alt="image" src="https://github.com/user-attachments/assets/1d762743-1d3c-4556-90ea-d17a653be325" />
+<img width="407" height="148" alt="image" src="https://github.com/user-attachments/assets/7457f3b1-ad03-41ee-8ef2-fbc1d2188414" />
+<img width="731" height="100" alt="image" src="https://github.com/user-attachments/assets/8fdc5b7b-bc55-48eb-a1f3-eb7c6225fc14" />
+
+
 
 ### 🎉 수고하셨습니다.
 
